@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+  font-family: "Roboto",sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+@mixin btn {
+  padding: 10px 30px;
+  background: #2091F9;
+  border: none;
+  border-radius: 35px;
+  color: wheat;
+  font-size: 20px;
+  transition: .4s;
+  &:hover {
+    transform: scale(1.2);
+    border: 2px solid#2091F9;
+    background: transparent;
+  }
+}
